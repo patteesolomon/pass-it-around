@@ -7,7 +7,7 @@ var bugs = null;
 var randP = null;
 var lives = 7;
 
-var linker = `<a href = '/:number_of_bottles'> "take one down pass it around" </a>`;
+var linker = `<a href = '/:number_of_bottles'> "take 2 down pass it around" </a>`;
 
 app.get('/' , (req, res) =>{
     res.send(
